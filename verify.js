@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken')
 const {
-    User,
-    Story
+    User
 } = require('./models/main')
 
 const auth = (req, res, next) => {
