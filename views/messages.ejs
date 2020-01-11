@@ -1,0 +1,14 @@
+
+<div>
+  <% if (flashMessages) { %>
+    <% if (flashMessages.success) { %>
+      <div class="text-green"><%= flashMessages.success %></div>
+    <% } else if (flashMessages.error) { %>
+      <div class="text-red"><%= flashMessages.error %></div>
+    <% } %>
+  <% } %>
+</div>
+
+
+
+
