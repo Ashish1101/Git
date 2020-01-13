@@ -17,7 +17,6 @@ const {
 const bcryptjs = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const auth = require('./verify')
-
 app.get('/', (req, res) => {
     res.send('hello this is me')
 })
