@@ -23,7 +23,7 @@
     "express-validator": "^6.3.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.10",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.19.4",
     "tailwindcss": "^1.1.4"
   }
